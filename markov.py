@@ -88,8 +88,12 @@ def main():
     
     DA = calcDA(fname)
     
-    print("O total de palavras é {0}, total de espaços é {1}, totalizando {2}.".format(palavras, ESP, (palavras+ESP)))
-    print("O total de LO é {0}, total de JA é {1}, total de CA é {2}, total de DA é {3}.".format(LO, JA, CA, DA))
+    print('O total de palavras é: ', palavras)
+    print('O total de espaços é: ', ESP)
+    print('Totalizando: ', (palavras+ESP))
+    print('O total de LO é: ', LO)
+    print('O total de JA é: ', JA)
+    print('O total de DA é: ', DA)
     
 if __name__=="__main__":
     main()
